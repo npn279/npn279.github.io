@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer components {
+  .section-title {
+    @apply text-2xl font-bold mb-4 border-b-2 border-gray-300 pb-2;
+  }
+  
+  .skill-category {
+    @apply font-semibold text-lg;
+  }
+  
+  .skill-item {
+    @apply text-gray-700;
+  }
+  
+  .job-title {
+    @apply font-semibold text-lg;
+  }
+  
+  .job-company {
+    @apply text-gray-700;
+  }
+  
+  .job-date {
+    @apply text-gray-500 text-sm;
+  }
+  
+  .job-location {
+    @apply text-gray-500 text-sm italic;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    font-size: 12pt;
+    line-height: 1.3;
+  }
+  
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  main {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: #000 !important;
+  }
+  
+  .section-title {
+    font-size: 18pt !important;
+    margin-bottom: 0.5cm !important;
+  }
+  
+  section {
+    page-break-inside: avoid;
+    margin-bottom: 1cm !important;
+  }
+  
+  /* Hide elements not needed for print */
+  button, .print-hide {
+    display: none !important;
+  }
+} 
