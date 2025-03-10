@@ -257,7 +257,7 @@ export default function Home() {
                   <p className="text-base text-gray-600 dark:text-gray-400 mb-5">Feb 2024 - Present • Ho Chi Minh City, Vietnam</p>
                   
                   <ul className="list-disc pl-5 space-y-2 mb-6">
-                    <li className="text-gray-700 dark:text-gray-300 text-base">Build Education Assistant using Retrieval-augmented Generation (RAG) on specific universities' knowledge.</li>
+                    <li className="text-gray-700 dark:text-gray-300 text-base">Build Education Assistant using Retrieval-augmented Generation (RAG) on specific universities&apos; knowledge.</li>
                     <li className="text-gray-700 dark:text-gray-300 text-base">Apply multiple techniques to improve RAG system like Query Expansion, Intent Classification, Hybrid Search, Re-ranking.</li>
                   </ul>
                   
