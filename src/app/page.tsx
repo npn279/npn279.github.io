@@ -29,11 +29,11 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden shadow-xl relative">
                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/30 to-teal-500/30 dark:from-blue-500/40 dark:to-teal-500/40 mix-blend-overlay"></div>
                 <Image 
-                  src="/placeholder-profile.jpg" 
+                  src="/profile.jpg" 
                   alt="Nguyen Phuoc Nguyen" 
                   width={600}
                   height={700}
-                  className="w-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full object-cover transition-all duration-500"
                 />
               </div>
             </div>
@@ -187,22 +187,22 @@ export default function Home() {
                       <span className="font-bold text-gray-800 dark:text-gray-200">Technical Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> HuggingFace, Unsloth, Git, LoRA, MoRA, ORPO, etc.</span>
                     </div>
-                    <div>
+                    {/* <div>
                       <span className="font-bold text-gray-800 dark:text-gray-200">Soft Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> Report writing, Logical Thinking, Teamwork, Time Management, Organizing.</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 
                 <div className="p-4 bg-gray-50 dark:bg-gray-700 flex justify-center space-x-6 border-t border-gray-100 dark:border-gray-600">
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🐍</span>
+                    <Image src="/huggingface-logo.png" alt="Huggingface" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🤗</span>
+                    <Image src="/openai-logo.png" alt="OpenAI" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🔥</span>
+                    <Image src="/unsloth-logo.png" alt="Unsloth" width={24} height={24}/>
                   </div>
                 </div>
               </div>
@@ -227,22 +227,22 @@ export default function Home() {
                       <span className="font-bold text-gray-800 dark:text-gray-200">Technical Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> Scrapy, BeautifulSoup, Trafilatura, etc.</span>
                     </div>
-                    <div>
+                    {/* <div>
                       <span className="font-bold text-gray-800 dark:text-gray-200">Soft Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> Time Management, Teamwork, Organizing.</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 
                 <div className="p-4 bg-gray-50 dark:bg-gray-700 flex justify-center space-x-6 border-t border-gray-100 dark:border-gray-600">
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🐍</span>
+                    <Image src="/python-logo.png" alt="Python" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🕸️</span>
+                    <Image src="/huggingface-logo.png" alt="Huggingface" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🧹</span>
+                    <Image src="/openai-logo.png" alt="OpenAI" width={24} height={24}/>
                   </div>
                 </div>
               </div>
@@ -266,22 +266,22 @@ export default function Home() {
                       <span className="font-bold text-gray-800 dark:text-gray-200">Technical Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> Python, Elasticsearch, OpenAI API, Gemini API, Cohere Re-rank API, LlamaIndex, etc.</span>
                     </div>
-                    <div>
+                    {/* <div>
                       <span className="font-bold text-gray-800 dark:text-gray-200">Soft Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> Presentation skills, Teamwork, Logical Thinking.</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 
                 <div className="p-4 bg-gray-50 dark:bg-gray-700 flex justify-center space-x-6 border-t border-gray-100 dark:border-gray-600">
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🐍</span>
+                    <Image src="/python-logo.png" alt="Python" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🔍</span>
+                    <Image src="/openai-logo.png" alt="OpenAI" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🤖</span>
+                    <Image src="/llamaindex-logo.png" alt="LlamaIndex" width={24} height={24}/>
                   </div>
                 </div>
               </div>
@@ -305,22 +305,22 @@ export default function Home() {
                       <span className="font-bold text-gray-800 dark:text-gray-200">Technical Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> Python, Elasticsearch, OpenAI API, Gemini API, Cohere Re-rank API, LlamaIndex, etc.</span>
                     </div>
-                    <div>
+                    {/* <div>
                       <span className="font-bold text-gray-800 dark:text-gray-200">Soft Skills:</span>
                       <span className="text-gray-700 dark:text-gray-300"> Presentation skills, Teamwork, Logical Thinking.</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 
                 <div className="p-4 bg-gray-50 dark:bg-gray-700 flex justify-center space-x-6 border-t border-gray-100 dark:border-gray-600">
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🐍</span>
+                    <Image src="/python-logo.png" alt="Python" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">⚖️</span>
+                    <Image src="/openai-logo.png" alt="OpenAI" width={24} height={24}/>
                   </div>
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <span className="text-2xl">🤖</span>
+                    <Image src="/llamaindex-logo.png" alt="LlamaIndex" width={24} height={24}/>
                   </div>
                 </div>
               </div>
@@ -363,7 +363,7 @@ export default function Home() {
                     <span className="font-semibold">Authors:</span> Nguyen P. Nguyen, Thang V.Q. Le, Anh‑Cuong Le, Viet‑Ha Nguyen, Viet‑Cuong Nguyen
                   </p>
                   <p className="text-base text-gray-700 dark:text-gray-300 mb-4">
-                    This research explores novel approaches to enhance Vietnamese legal question answering systems using retrieval-augmented generation techniques. We propose a hybrid architecture that combines dense retrievers with large language models to improve accuracy and reliability in the legal domain.
+                    Large Language Models (LLMs) have shown theirpotential in a wide range of tasks, but much of their development has been concentrated on the English language. This focus has created a noticeable gap in the availability of LLMs for other languages, as well as in specialized domains such as legal contexts. In this study, we aim to address this gap by developing a Vietnamese Large Language Model and building a Retrieval-Augmented Generation (RAG) system within legal settings. Our methodology includes building and processing legal datasets, followed by training the LLM specifically for Vietnamese legal applications. Our findings suggest that both the LLM and the RAG system perform well in retaining legal knowledge and providing more reliable answers to legal inquiries. These results highlight the potential of these approaches for legal tasks in the Vietnamese language. This research not only contributes to the application of AI in the legal field but also offers important insights into the development of AI solutions for non-English languages, addressing a critical gap in current AI research and supporting more inclusive language model applications.
                   </p>
                   <div className="flex flex-wrap gap-3 mb-4">
                     <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 px-3 py-1 rounded-full text-sm">Small Language Model</span>
@@ -412,13 +412,13 @@ export default function Home() {
                     Enhancing Reading Comprehension of Vietnamese LLMs with Synthetic data
                   </h3>
                   <p className="text-lg text-teal-500 dark:text-teal-400 mb-2">
-                  The 16th IEEE International Conference on Knowledge and Systems Engineering (KSE 2024) ‑ Best Paper Award
+                    The 16th IEEE International Conference on Knowledge and Systems Engineering (KSE 2024) ‑ Best Paper Award
                   </p>
                   <p className="text-base text-gray-700 dark:text-gray-300 mb-4">
                     <span className="font-semibold">Authors:</span> Thang V.Q. Le, Nguyen P. Nguyen, Trong‑Chi Duong, Anh‑Cuong Le, Viet‑Cuong Nguyen, Viet‑Ha Nguyen
                   </p>
                   <p className="text-base text-gray-700 dark:text-gray-300 mb-4">
-                    This paper presents a comprehensive evaluation of small language models (1-3B parameters) for Vietnamese legal tasks. We benchmark various open-source models on tasks including legal document classification, named entity recognition, and question answering, providing insights into the performance-efficiency tradeoffs.
+                    Large Language Models (LLMs) have demonstrated remarkable capabilities in addressing a wide array of general problems. However, there is a growing recognition of the need for domain-specific expertise in certain fields. This has led to an emerging trend in the development of specialized LLMs, often referred to as expert models. In line with this trend, our research presents the development of Vilaw, a small language model specifically designed for the Vietnamese legal domain. Our approach combines innovative techniques to enhance model performance, including the use of legal synthetic data and experiments on Small Language Models (SLMs) for continuing pre-training and supervised fine-tuning in the legal domain. We created new types of synthetic data by adding question-answering generated with legal data in pre-training phase and developed a three-level of Bloom's taxonomy SFT dataset: knowledge, comprehension and application, especially legal syllogism question-answering data. The results demonstrate significant improvements in the model's capabilities within the Vietnamese legal context compared to baseline models. Our Vilaw model exhibit enhanced legal reasoning and knowledge application, showcasing the effectiveness of our domain-specific training approach.
                   </p>
                   <div className="flex flex-wrap gap-3 mb-4">
                     <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 px-3 py-1 rounded-full text-sm">Small Language Model</span>
@@ -569,39 +569,6 @@ export default function Home() {
                 <span className="text-lg">Ho Chi Minh City, Vietnam</span>
               </div>
             </div>
-            
-            <form className="space-y-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input 
-                  type="text" 
-                  placeholder="Name" 
-                  className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-                <input 
-                  type="email" 
-                  placeholder="Email" 
-                  className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-              <input 
-                type="text" 
-                placeholder="Subject" 
-                className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-              <textarea 
-                placeholder="Message" 
-                rows={6}
-                className="w-full px-4 py-3 bg-gray-100 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              ></textarea>
-              <div className="text-center">
-                <button 
-                  type="submit"
-                  className="inline-flex items-center justify-center bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-8 rounded-md transition duration-300"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
           </div>
         </div>
         
@@ -634,7 +601,7 @@ export default function Home() {
             <a href="https://github.com/npn279" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 dark:hover:text-white transition-colors">
               <span className="sr-only">GitHub</span>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
+                <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.688.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
               </svg>
             </a>
           </div>

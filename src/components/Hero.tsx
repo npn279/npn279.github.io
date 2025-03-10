@@ -76,7 +76,7 @@ const Hero = () => {
         <div className="w-[150px] h-[150px] rounded-full overflow-hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-2 border-gray-200 dark:border-gray-700 hover:scale-105 transition-transform duration-300 shadow-lg">
           <div className="absolute inset-0 bg-blue-500/10 dark:bg-blue-500/20 animate-pulse" style={{ animationDuration: '3s' }}></div>
           <Image 
-            src="/placeholder-profile.jpg" 
+            src="/profile_circle.jpg" 
             alt="Profile" 
             fill
             style={{objectFit: 'cover'}}
@@ -96,7 +96,7 @@ const Hero = () => {
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white flex items-center justify-center animate-fadeIn min-h-[60px]">
           <Typewriter
             options={{
-              strings: ['Hi, my name is Nguyen!', 'I\'m an AI Engineer', 'and I love Technology', 'and I\'m addicted to ☕'],
+              strings: ['Hi, my name is Nguyen!', 'I\'m an AI Engineer', 'I love Technology', 'and_I_love_to_code', 'and֎Artifical֎Intelligence'],
               autoStart: true,
               loop: true,
               delay: 80,
