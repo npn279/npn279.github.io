@@ -111,9 +111,6 @@ export default function Home() {
                 <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Natural Language Processing</span>
                 <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Computer Vision</span>
                 <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Large Language Models</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">PyTorch</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">TensorFlow</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">HuggingFace</span>
               </div>
             </div>
             
@@ -122,11 +119,6 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Programming</h3>
               <div className="flex flex-wrap gap-3">
                 <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Python</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">JavaScript</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">TypeScript</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">React</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Next.js</span>
-                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Node.js</span>
               </div>
             </div>
             
@@ -140,6 +132,7 @@ export default function Home() {
                 <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Linux</span>
                 <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">VS Code</span>
                 <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">Jupyter</span>
+                <span className="bg-gray-100 dark:bg-gray-700 px-4 py-2 rounded-full text-base">HuggingFace</span>
               </div>
             </div>
           </div>
